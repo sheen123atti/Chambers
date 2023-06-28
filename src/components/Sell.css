@@ -1,0 +1,82 @@
+.ContainerS {
+    height: 85vh;
+    background-color: white;
+    padding: 2rem;
+}
+
+.HeadingS {
+    font-size: 2rem;
+    color: #1e2a54;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.TaglineS {
+    text-align: end;
+    margin: 0.5rem;
+    color: #1e2a54;
+}
+
+.InputsS {
+    display: block;
+    background-color: #1e2a54;
+    color: white;
+    padding: 2rem;
+    text-align: left;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 3px #5e5c5c;
+}
+
+label {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.LocationS {
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.PriceS {
+    width: 8rem;
+    font-size: 1.1rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.Button-submitS {
+    font-size: 1.1rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.Button-submitS:hover {
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+}
+
+@media screen and (max-width: 280px) {
+    label {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .LocationS {
+        display: block;
+        width: 100%;
+        font-size: 0.9rem;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+
+    .PriceS {
+        width: 8rem;
+        font-size: 0.9rem;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+
+    .Button-submitS {
+        font-size: 0.9rem;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+}

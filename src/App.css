@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  /*background-color: #4682B4;*/
+}
+
+.Headerr {
+  display: block;
+}
+
+/* have other queries talk to our chat bot */

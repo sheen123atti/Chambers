@@ -1,0 +1,90 @@
+.ContainerFooter {
+    display: flex;
+    padding: 0 2rem 2rem 2rem;
+    align-items: center;
+}
+
+.CompanyName {
+    color: #1e2a54;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.Para {
+    margin-left: 2rem;
+    font-size: 14px;
+}
+
+.IconsContainer {
+    margin-left: auto;
+}
+
+.IconSize {
+    height: 1.8rem;
+}
+
+.Fb {
+    color: #1e2a54;
+}
+
+.Twitter {
+    color: #1e2a54;
+    margin-left: 0.7rem;
+}
+
+.Insta {
+    color: #1e2a54;
+    margin-left: 0.7rem;
+}
+
+.Linkedin {
+    color: #1e2a54;
+    margin-left: 0.7rem;
+}
+
+@media screen and (max-width: 570px) {
+    .ContainerFooter {
+        display: block;
+        padding: 0 2rem 2rem 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .CompanyName {
+        color: #1e2a54;
+        font-weight: 500;
+        font-size: 22px;
+    }
+    
+    .Para {
+        margin-left: 0rem;
+        font-size: 14px;
+    }
+    
+    .IconsContainer {
+        margin-left: auto;
+    }
+    
+    .IconSize {
+        height: 1.8rem;
+    }
+
+    .Fb {
+        color: #1e2a54;
+    }
+    
+    .Twitter {
+        color: #1e2a54;
+        margin-left: 0.7rem;
+    }
+    
+    .Insta {
+        color: #1e2a54;
+        margin-left: 0.7rem;
+    }
+    
+    .Linkedin {
+        color: #1e2a54;
+        margin-left: 0.7rem;
+    }
+}

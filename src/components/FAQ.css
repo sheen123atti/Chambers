@@ -1,0 +1,33 @@
+.FAQContainer {
+    display: block;
+    background-color: white;
+    padding: 2rem;
+}
+
+.FAQHeading {
+    font-size: 2rem;
+    color: #1e2a54;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.FAQQuestion {
+    margin: 2rem;
+    text-align: left;
+}
+
+.FAQ-item {
+    padding: 0.5rem;
+    margin: 1rem 0 1rem 0;
+    border: 2px solid #1e2a54;
+    border-radius: 1rem;
+}
+
+@media screen and (max-height: 1024px) {
+    .FAQContainer {
+        display: block;
+        min-height: 85vh;
+        background-color: white;
+        padding: 2rem;
+    }
+}
